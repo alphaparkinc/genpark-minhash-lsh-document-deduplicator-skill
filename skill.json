@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-minhash-lsh-document-deduplicator-skill",
+  "version": "1.0.0",
+  "description": "MinHash and Locality-Sensitive Hashing (LSH) near-duplicate document clustering and Jaccard similarity estimation.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
