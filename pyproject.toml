@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-minhash-lsh-document-deduplicator-skill"
+version = "1.0.0"
+description = "MinHash and Locality-Sensitive Hashing (LSH) near-duplicate document clustering and Jaccard similarity estimation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Text Processing :: Linguistic",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-minhash-lsh-document-deduplicator-skill"
+Repository = "https://github.com/alphaparkinc/genpark-minhash-lsh-document-deduplicator-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-minhash-lsh-document-deduplicator-skill/issues"
